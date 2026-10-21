@@ -1,0 +1,32 @@
+{
+  "name": "my-toolkit",
+  "version": "0.1.0",
+  "description": "A Codex plugin template: bundled skills + a zero-dependency MCP server.",
+  "author": {
+    "name": "lichigo281-spec",
+    "url": "https://github.com/lichigo281-spec"
+  },
+  "homepage": "https://github.com/lichigo281-spec/codex-plugin-template",
+  "repository": "https://github.com/lichigo281-spec/codex-plugin-template",
+  "license": "MIT",
+  "keywords": ["template", "mcp", "skills", "notes"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "My Toolkit",
+    "shortDescription": "插件模板：示例技能 + MCP 工具（打招呼、查时间、本地笔记）。",
+    "longDescription": "一个可直接复制改造的 Codex 插件模板。包含两个示例技能（hello、notes）以及一个零依赖的 MCP 服务器，提供 hello、get_time、notes_add、notes_list 四个工具。",
+    "developerName": "lichigo281-spec",
+    "category": "Productivity",
+    "capabilities": ["MCP", "Skills", "Template"],
+    "websiteURL": "https://github.com/lichigo281-spec/codex-plugin-template",
+    "defaultPrompt": [
+      "用 my-toolkit 跟我打个招呼",
+      "现在东京几点？",
+      "帮我记一条笔记：明天下午三点开会"
+    ],
+    "brandColor": "#7C3AED",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

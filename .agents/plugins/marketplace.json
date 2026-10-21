@@ -1,0 +1,20 @@
+{
+  "name": "codex-plugin-template",
+  "interface": {
+    "displayName": "Codex Plugin Template"
+  },
+  "plugins": [
+    {
+      "name": "my-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/my-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

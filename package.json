@@ -1,0 +1,20 @@
+{
+  "name": "my-toolkit-mcp",
+  "version": "0.1.0",
+  "description": "Codex 插件模板配套的零依赖 MCP 服务器示例",
+  "type": "module",
+  "bin": {
+    "my-toolkit-mcp": "mcp-server/server.mjs"
+  },
+  "files": [
+    "mcp-server"
+  ],
+  "scripts": {
+    "start": "node mcp-server/server.mjs",
+    "test": "node mcp-server/test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
